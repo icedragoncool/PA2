@@ -1,0 +1,7 @@
+# creating variable
+CC=g++
+
+
+all: filecnt.cpp filedisp.cpp ; $(CC) filecnt.cpp -o filecnt ; $(CC) filedisp.cpp -o filedisp
+
+clean: ; rm filecnt ; filedisp

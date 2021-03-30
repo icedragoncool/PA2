@@ -1,0 +1,214 @@
+Script started on 2021-03-14 13:23:37-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="83" LINES="22"]
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ touch filecnt.cpp
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ g++ filecnt.cpp -o filecnt
+[01m[Kfilecnt.cpp:[m[K In function ‘[01m[KdirectoryData filecnt(char*)[m[K’:
+[01m[Kfilecnt.cpp:90:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kfilecnt[m[K’
+   90 |                 strcat(newpath, (*dirent).d_name)
+      |                                                  [01;31m[K^[m[K
+      |                                                  [32m[K;[m[K
+   91 |                 [32m[Kfilecnt[m[K(newpath);
+      |                 [32m[K~~~~~~~[m[K                           
+[01m[Kfilecnt.cpp:110:29:[m[K [01;31m[Kerror: [m[K‘[01m[KdirectoryCount[m[K’ was not declared in this scope
+  110 |      temp1.directoryCount = [01;31m[KdirectoryCount[m[K;
+      |                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[Kfilecnt.cpp:111:24:[m[K [01;31m[Kerror: [m[K‘[01m[KfileCount[m[K’ was not declared in this scope; did you mean ‘[01m[Kfile_count[m[K’?
+  111 |      temp1.fileCount = [01;31m[KfileCount[m[K;
+      |                        [01;31m[K^~~~~~~~~[m[K
+      |                        [32m[Kfile_count[m[K
+[01m[Kfilecnt.cpp:112:23:[m[K [01;31m[Kerror: [m[K‘[01m[KfileSize[m[K’ was not declared in this scope; did you mean ‘[01m[Kfile_size[m[K’?
+  112 |      temp1.fileSize = [01;31m[KfileSize[m[K;
+      |                       [01;31m[K^~~~~~~~[m[K
+      |                       [32m[Kfile_size[m[K
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ g++ filecnt.cpp -o filecnt
+[01m[Kfilecnt.cpp:[m[K In function ‘[01m[KdirectoryData filecnt(char*)[m[K’:
+[01m[Kfilecnt.cpp:84:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdir_count[m[K’ was not declared in this scope
+   84 |                 [01;31m[Kdir_count[m[K++;
+      |                 [01;31m[K^~~~~~~~~[m[K
+[01m[Kfilecnt.cpp:99:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kfile_count[m[K’ was not declared in this scope; did you mean ‘[01m[KfileCount[m[K’?
+   99 |                 [01;31m[Kfile_count[m[K++;
+      |                 [01;31m[K^~~~~~~~~~[m[K
+      |                 [32m[KfileCount[m[K
+[01m[Kfilecnt.cpp:100:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kfile_size[m[K’ was not declared in this scope; did you mean ‘[01m[KfileSize[m[K’?
+  100 |                 [01;31m[Kfile_size[m[K = file_size + (*dirent).d_reclen;
+      |                 [01;31m[K^~~~~~~~~[m[K
+      |                 [32m[KfileSize[m[K
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ [K]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ [K]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ [K]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ [K]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ [K]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ [K]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ [K]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ [K]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ [K]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ [K]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ [K]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ [K]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ [K]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ [K]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ [K]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ [K]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ [K]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ [K]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ [K]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ [K]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ [K]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ g++ filecnt.cpp -o filecnt
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ ./filecnt
+Enter path of the directory : 
+mydata
+The total number of directories in directory mydata is :1
+The total number of files in directory mydata is :5
+The total number of bytes occupied by all files in directory mydata is :160
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ g++ filecnt.cpp -o filecnt
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ ./filecnt
+Enter path of the directory : mydata
+The total number of directories in directory mydata is :1
+The total number of files in directory mydata is :5
+The total number of bytes occupied by all files in directory mydata is :160
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ cd mydata
+]0;hitech52@hitech52-VirtualBox: ~/mydata[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~/mydata[00m$ mkdie[Kr mydata2/mydata3
+mkdir: cannot create directory ‘mydata2/mydata3’: No such file or directory
+]0;hitech52@hitech52-VirtualBox: ~/mydata[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~/mydata[00m$ mkdir mydata2
+]0;hitech52@hitech52-VirtualBox: ~/mydata[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~/mydata[00m$ mkdir mydata3
+]0;hitech52@hitech52-VirtualBox: ~/mydata[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~/mydata[00m$ cd
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ ./filecnt
+Enter path of the directory : mydata
+The total number of directories in directory mydata is :3
+The total number of files in directory mydata is :5
+The total number of bytes occupied by all files in directory mydata is :160
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ touch filedisp.cpp[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktouch filedisp.cpp
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ g++ filedisp.cpp -0 filedisp
+[01m[Kg++:[m[K [01;31m[Kerror: [m[Kfiledisp: No such file or directory
+[01m[Kg++:[m[K [01;31m[Kerror: [m[Kunrecognized command line option ‘[01m[K-0[m[K’
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ g++ filedisp.cpp -o filedisp
+[01m[Kfiledisp.cpp:8:5:[m[K [01;35m[Kwarning: [m[Ksecond argument of ‘[01m[Kint main(int, char***)[m[K’ should be ‘[01m[Kchar **[m[K’ [[01;35m[K-Wmain[m[K]
+    8 | int [01;35m[Kmain[m[K(int argc, char** argv[])
+      |     [01;35m[K^~~~[m[K
+[01m[Kfiledisp.cpp:[m[K In function ‘[01m[Kint main(int, char***)[m[K’:
+[01m[Kfiledisp.cpp:21:23:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kchar**[m[K’ to ‘[01m[Kconst char*[m[K’
+   21 |     if (strcmp ([01;31m[Kargv[0][m[K, "-d") == 0)
+      |                 [01;31m[K~~~~~~^[m[K
+      |                       [01;31m[K|[m[K
+      |                       [01;31m[Kchar**[m[K
+In file included from [01m[K/usr/include/c++/9/cstring:42[m[K,
+                 from [01m[Kfiledisp.cpp:2[m[K:
+[01m[K/usr/include/string.h:137:32:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kint strcmp(const char*, const char*)[m[K’
+  137 | extern int strcmp ([01;36m[Kconst char *__s1[m[K, const char *__s2)
+      |                    [01;36m[K~~~~~~~~~~~~^~~~[m[K
+[01m[Kfiledisp.cpp:22:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kelse[m[K’
+   22 |         word = "directories"
+      |                             [01;31m[K^[m[K
+      |                             [32m[K;[m[K
+   23 |     [32m[Kelse[m[K if (strcmp (argv[0], "-f") == 0)
+      |     [32m[K~~~~[m[K                     
+[01m[Kfiledisp.cpp:25:28:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kchar**[m[K’ to ‘[01m[Kconst char*[m[K’
+   25 |     else if (strcmp ([01;31m[Kargv[0][m[K, "-b") == 0)
+      |                      [01;31m[K~~~~~~^[m[K
+      |                            [01;31m[K|[m[K
+      |                            [01;31m[Kchar**[m[K
+In file included from [01m[K/usr/include/c++/9/cstring:42[m[K,
+                 from [01m[Kfiledisp.cpp:2[m[K:
+[01m[K/usr/include/string.h:137:32:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kint strcmp(const char*, const char*)[m[K’
+  137 | extern int strcmp ([01;36m[Kconst char *__s1[m[K, const char *__s2)
+      |                    [01;36m[K~~~~~~~~~~~~^~~~[m[K
+[01m[Kfiledisp.cpp:26:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kelse[m[K’
+   26 |         word = "bytes"
+      |                       [01;31m[K^[m[K
+      |                       [32m[K;[m[K
+   27 |     [32m[Kelse[m[K {
+      |     [32m[K~~~~[m[K               
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ g++ filedisp/[K.coo[K[Kpp -o filedisp
+[01m[Kfiledisp.cpp:8:5:[m[K [01;35m[Kwarning: [m[Ksecond argument of ‘[01m[Kint main(int, char***)[m[K’ should be ‘[01m[Kchar **[m[K’ [[01;35m[K-Wmain[m[K]
+    8 | int [01;35m[Kmain[m[K(int argc, char** argv[])
+      |     [01;35m[K^~~~[m[K
+[01m[Kfiledisp.cpp:[m[K In function ‘[01m[Kint main(int, char***)[m[K’:
+[01m[Kfiledisp.cpp:21:23:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kchar**[m[K’ to ‘[01m[Kconst char*[m[K’
+   21 |     if (strcmp ([01;31m[Kargv[0][m[K, "-d") == 0)
+      |                 [01;31m[K~~~~~~^[m[K
+      |                       [01;31m[K|[m[K
+      |                       [01;31m[Kchar**[m[K
+In file included from [01m[K/usr/include/c++/9/cstring:42[m[K,
+                 from [01m[Kfiledisp.cpp:2[m[K:
+[01m[K/usr/include/string.h:137:32:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kint strcmp(const char*, const char*)[m[K’
+  137 | extern int strcmp ([01;36m[Kconst char *__s1[m[K, const char *__s2)
+      |                    [01;36m[K~~~~~~~~~~~~^~~~[m[K
+[01m[Kfiledisp.cpp:23:28:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kchar**[m[K’ to ‘[01m[Kconst char*[m[K’
+   23 |     else if (strcmp ([01;31m[Kargv[0][m[K, "-f") == 0)
+      |                      [01;31m[K~~~~~~^[m[K
+      |                            [01;31m[K|[m[K
+      |                            [01;31m[Kchar**[m[K
+In file included from [01m[K/usr/include/c++/9/cstring:42[m[K,
+                 from [01m[Kfiledisp.cpp:2[m[K:
+[01m[K/usr/include/string.h:137:32:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kint strcmp(const char*, const char*)[m[K’
+  137 | extern int strcmp ([01;36m[Kconst char *__s1[m[K, const char *__s2)
+      |                    [01;36m[K~~~~~~~~~~~~^~~~[m[K
+[01m[Kfiledisp.cpp:25:28:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kchar**[m[K’ to ‘[01m[Kconst char*[m[K’
+   25 |     else if (strcmp ([01;31m[Kargv[0][m[K, "-b") == 0)
+      |                      [01;31m[K~~~~~~^[m[K
+      |                            [01;31m[K|[m[K
+      |                            [01;31m[Kchar**[m[K
+In file included from [01m[K/usr/include/c++/9/cstring:42[m[K,
+                 from [01m[Kfiledisp.cpp:2[m[K:
+[01m[K/usr/include/string.h:137:32:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kint strcmp(const char*, const char*)[m[K’
+  137 | extern int strcmp ([01;36m[Kconst char *__s1[m[K, const char *__s2)
+      |                    [01;36m[K~~~~~~~~~~~~^~~~[m[K
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ file[K[K[K[Kg++ filedisp.cpp -o filedisp
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ ./filesi[K[Kdisp
+Usage message: 'filedisp -d' or 'filedisp -f' or 'filedisp -b'
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ ./filecnt | ./filedisp -d
+Usage message: 'filedisp -d' or 'filedisp -f' or 'filedisp -b'
+mydata
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ ./filecnt
+Enter path of the directory : mydata
+The total number of directories in directory mydata is :3
+The total number of files in directory mydata is :5
+The total number of bytes occupied by all files in directory mydata is :160
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ file[K[K[K[K./filecnt | ,.[K[K./filedisp -f
+Usage message: 'filedisp -d' or 'filedisp -f' or 'filedisp -b'
+mydata
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ g++ filedisp/[K.cpp -o filedisp
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ ./filedisp
+Usage message: 'filedisp -d' or 'filedisp -f' or 'filedisp -b'
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ ./filecnt | ./filedisp -d
+mydata
+Enter path of the directory : The total number of directories in directory mydata is :3
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ ./filecnt | .filedisp -f
+.filedisp: command not found
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ ./filecnt | ./filedisp -f
+mydata
+The total number of files in directory mydata is :5
+The total number of bytes occupied by all files in directory mydata is :160
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ ./filecnt | ./filedisp -b
+mydata
+The total number of bytes occupied by all files in directory mydata is :160
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ ./filecnt | ./filedisp -d
+mydata
+Enter path of the directory : The total number of directories in directory mydata is :3
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ g++ filecnt.cpp -o filecnt
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ ./filecnt
+Enter path of the directory : mydata
+The total number of directories in directory mydata is :3
+The total number of files in directory mydata is :5
+The total number of bytes occupied by all file in directory mydata is :160
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ ./filecnt | ./filedisp -f
+mydata
+The total number of files in directory mydata is :5
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ file[K[K[K[Kg++ filecnt.cpp -o filecnt
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ ./filecnt
+Enter path of the directory : mydata
+The total number of directories in directory mydata is : 3
+The total number of files in directory mydata is : 5
+The total number of bytes occupied by all file in directory mydata is : 160
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ g++ filecnr[Kt.cpp -o filecnt
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ ./filecnt
+Enter path of the directory : abd
+Error: cannot open the directoryabd
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ g++ filecnt.cpp -o filecnt
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ ./filecnt
+Enter path of the directory : sbcd
+Error: cannot open the directory sbcd
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ g++ filecnt.cpp -o filecnt
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ ./filecnt
+Enter path of the directory : mydata
+The total number of directories in directory mydata is: 3
+The total number of files in directory mydata is: 5
+The total number of bytes occupied by all file in directory mydata is: 160
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ g++ filedisp.cpp -o filedisp
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ ./filedisp
+Usage message: 'filedisp -d' or 'filedisp -f' or 'filedisp -b'
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ ./filecnt | ./filedisp -d
+mydata
+Enter path of the directory : The total number of directories in directory mydata is: 3
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ ./filecnt | ./filedisp -f
+mydata
+The total number of files in directory mydata is: 5
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ ./filecnt | ./filedisp -b
+mydata
+The total number of bytes occupied by all file in directory mydata is: 160
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ ./filecnt | ./filr[Kedisp -a
+Usage message: 'filedisp -d' or 'filedisp -f' or 'filedisp -b'
+mydata
+]0;hitech52@hitech52-VirtualBox: ~[01;32mhitech52@hitech52-VirtualBox[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2021-03-14 16:44:20-05:00 [COMMAND_EXIT_CODE="255"]
