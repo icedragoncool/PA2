@@ -5,6 +5,7 @@
 using namespace std;
 
 //declaration of the directory information
+//made some change in comment
 
 struct directoryData                                                
 {
